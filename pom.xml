@@ -37,6 +37,28 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
+        
+        <!-- MySQL JDBC Driver -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.27</version> <!-- Use the appropriate version -->
+        </dependency>
+        
+        <!-- PostgreSQL JDBC Driver (uncomment if you are using PostgreSQL) -->
+        <!-- <dependency> -->
+        <!--    <groupId>org.postgresql</groupId> -->
+        <!--    <artifactId>postgresql</artifactId> -->
+        <!--    <version>42.2.23</version> --> <!-- Use the appropriate version -->
+        <!-- </dependency> -->
+        
+        <!-- H2 Database Driver (uncomment if you are using H2 for testing) -->
+        <!-- <dependency> -->
+        <!--    <groupId>com.h2database</groupId> -->
+        <!--    <artifactId>h2</artifactId> -->
+        <!--    <version>1.4.200</version> --> <!-- Use the appropriate version -->
+        <!--    <scope>runtime</scope> -->
+        <!-- </dependency> -->
     </dependencies>
 
     <build>
